@@ -1,0 +1,240 @@
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
+.background {
+     background-color: #1f2937;
+}
+
+.header,
+.container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1em;
+     margin: auto;
+     width: 80%;
+}
+
+.logo {
+     display: flex;
+     font-size: 30px;
+     color: #f9faf8;
+     font-weight: bolder;
+}
+
+ul {
+     list-style-type: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+     gap: 8px;
+}
+
+a {
+     font-size: 24px;
+     color: #f9faf8;
+     padding: 8px;
+     text-decoration: none;
+}
+
+.main-text {
+     font-size: 48px;
+     font-weight: bolder;
+     color: #f9faf8;
+}
+
+.description,
+.right p {
+     font-size: 18px;
+     color: #E5E7EB;
+}
+
+.left {
+     color: #f9faf8;
+     padding: 50px 0px 50px 100px;
+     max-width: 50%;
+     text-align: left;
+}
+
+.right {
+     padding-right: 100px;
+}
+
+   
+img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+   
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+   
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+   
+.info {
+  max-width: 500px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 30px;
+  max-width: 100%;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+   
+q {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+cite {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+figcaption {
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 30px;
+}
+
+.footer-background {
+  background-color: #3882F6;
+  color:#E5E7EB;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 300px 25px 300px;
+  margin-bottom: 25px;
+  margin-left: 300px; 
+  margin-right: 300px; 
+  padding: 10px 0px 15px 0px;
+}
+
+.content {
+  text-align: left;
+}
+
+.left button,
+.footer-background button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  color:#E5E7EB;
+  font-weight: bold;
+  padding: 8px 30px 8px 30px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.left button {
+  border: #3882F6;
+}
+
+
+.footer-background button {
+  border: #E5E7EB solid 2px;
+}
+
+
+/*
+.header  {
+     font-family: monospace;
+     background: papayawhip;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   
+   .logo {
+     font-size: 48px;
+     font-weight: 900;
+     color: tomato;
+     background: white;
+     padding: 4px 32px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+   }
+
+
+   ul {
+     this removes the dots on the list items
+     list-style-type: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+     gap: 8px;
+   }
+   
+   a {
+     font-size: 22px;
+     background: white;
+     padding: 8px;
+     this removes the line under the links
+     text-decoration: none;
+   }
+*/
+
+/*
+
+body {
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+   }
+   
+   img {
+     width: 100px;
+     height: 100px;
+   }
+   
+   .title {
+     font-size: 36px;
+     font-weight: 900;
+     margin-bottom: 32px;
+   }
+   
+   .container {
+     display: flex;
+     justify-content: center;
+     gap: 52px;
+   }
+   
+   .info {
+     max-width: 200px;
+   }
+   
+   .footer {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 52px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: #eee;
+   }
+
+*/
